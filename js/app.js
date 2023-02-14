@@ -43,6 +43,18 @@ const membriTeam = [
 ]
 
 
-for (let key in membriTeam) {
-    console.log(membriTeam[key])
+for (let key in membriTeam) {   // qui stampo tutte le proprietà di un oggetto tramite un ciclo for - in 
+    // console.log(membriTeam[key])
 }
+
+const memberEl = document.querySelector('.row')
+
+for (let i=0; i< membriTeam.length;i++){
+    const member = membriTeam[i]
+    // console.log(membriTeam[i])
+    const nameMember = member.nome
+    const roleMember = member.ruolo
+    const pictureMember = member.foto
+    memberEl.innerHTML+= `<div> ${nameMember}, ${roleMember}, ${pictureMember}</div>`
+}
+
