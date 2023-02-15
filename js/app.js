@@ -56,9 +56,9 @@ const memberEl = document.querySelector('.row')
 //     const roleMember = member.ruolo
 //     const pictureMember = member.foto
 //     memberEl.innerHTML+= `<div class="col-4 bg-white p-0 m-2 mc-adaptation"> 
-//     ${pictureMember},
-//    ${nameMember}, 
-//    ${roleMember}
+//     <p>${pictureMember}</p>,
+//    <p>${nameMember}</p>, 
+//    <p>${roleMember}</p>
 //     </div>`
 // }
 
